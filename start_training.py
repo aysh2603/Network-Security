@@ -19,3 +19,14 @@ def start_training():
     
 if __name__ == "__main__":
     start_training()
+    
+
+'''
+NOTES
+
+Ingestion --> Validation --> Transformation --> Training --> Evaluate --> Pusher
+
+Write the configuration step for each component.
+The output of each component of the training pipeline is called artifact (saved in artifact directory) which is used as an input by the next component in the pipeline.
+
+'''
