@@ -10,6 +10,7 @@ from networksecurity.pipeline.training_pipeline import TrainingPipeline
 
 def start_training():
     try:
+        logging.info("Training has started")
         #creating an object of TrainingPipeline
         model_training = TrainingPipeline()
         #executing the pipeline

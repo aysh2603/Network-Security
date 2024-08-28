@@ -1,3 +1,4 @@
+# pushing the data to mongodb database
 import os
 import sys
 import json
